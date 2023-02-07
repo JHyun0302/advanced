@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 로그는 얼추 나오지만 try-catch처럼 코드가 지저분해짐
+ * 레벨링 안됨
  */
 @RestController
 @RequiredArgsConstructor
