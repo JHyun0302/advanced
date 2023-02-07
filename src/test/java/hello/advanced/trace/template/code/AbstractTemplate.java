@@ -9,7 +9,6 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public abstract class AbstractTemplate {
-
     public void execute() { //변하지 않는 부분은 그대로 두고
         long startTime = System.currentTimeMillis();
         //비지니스 로직 실행
