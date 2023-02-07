@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * 파라미터로 traceId 넘겨주는 방식: 코드는 여전히 지저분하지만 구현은 성공
- * But, 모든 관련 클래스의 파라미터, 인터페이스 수정해야하는 단점 존재
+ * 동시성 문제도 쓰레드 로컬 사용으로 해결!
+ * But 여전히 try-catch 코드 지저분함... 핵심과 부가기능 분리 안됨
  */
 @RestController
 @RequiredArgsConstructor
